@@ -1,4 +1,6 @@
 #!usr/bin/env ruby
+# 99 bottles of beer song
+
 def bottles(of_beer, ending)
   of_beer == 2 ? ending_2 = "" : ending_2 = 's'
   puts "#{of_beer} bottle#{ending} of beer on the wall, #{of_beer} bottle#{ending} of beer."
